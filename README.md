@@ -32,7 +32,7 @@ To build the image with the application run
 
 To run the image execute
 
-`docker rum --rm -p 8080:8080 gorestapi:latest`
+`docker run --rm -p 8080:8080 gorestapi:latest`
 
 To the image try this URLs
 
