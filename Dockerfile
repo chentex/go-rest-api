@@ -1,4 +1,4 @@
-FROM golang:1.9.1-alpine
+FROM golang:1.11.1-alpine
 EXPOSE 8080
 RUN apk add --update git; \
     mkdir -p ${GOPATH}/go-rest-api; \
